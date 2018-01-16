@@ -61,7 +61,7 @@
         @if(Auth::user() )
         <div flex-no-shrink class="b-t">
             <div class="nav-fold">
-                <a href="profile.html">
+                <a href="/">
         	    <span class="pull-left">
                     {{--/img/users/@if(Auth::check()) {{Auth::user()->imginame}} @endif--}}
         	      <img src="/img/users/{{Auth::user()->imginame}}" alt="..." class="w-40 img-circle">
