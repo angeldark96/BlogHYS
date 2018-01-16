@@ -10,15 +10,16 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs12">
                 <div class="all_team">
+                    {{--@if(Auth::user()->disenador())--}}
                     @foreach($users as $user)
-                        @foreach($posts as $post)
                         <div class="sngl_team">
                             <img src="/img/users/{{ $user->imginame }}" alt=""/>
-                            <a href="{{route('frontcontihogar.front_blog.search.user', $post->user->name) }}"><h3>{{ $user->name }}  <span>Diseñador</span></h3></a>
+                                <a href="{{route('frontcontihogar.front_blog.search.user',  $user->name ) }}"><h3>{{ $user->name }}  <span>Diseñador</span></h3></a>
                             <p>{{ $user->posts->count() }} Post Publicado </p>
                         </div>
-                     @endforeach
                     @endforeach
+                        {{--@else--}}
+                    {{--@endif--}}
                 </div>
             </div>
         </div>

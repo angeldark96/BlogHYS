@@ -15,7 +15,14 @@ class ComposerServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        View::Composer(['frontcontihogar.front_blog.index','frontcontihogar.front_blog.post','frontcontihogar.front_blog.post_user','frontcontihogar.template.partials.post','frontcontihogar.template.partials.team','frontcontihogar.template.partials.header'],'App\Http\ViewComposers\AsideComposer');
+        View::Composer(['frontcontihogar.front_blog.index',
+            'frontcontihogar.front_blog.post',
+            'frontcontihogar.front_blog.post_user',
+            'frontcontihogar.template.partials.post',
+            'frontcontihogar.template.partials.team',
+            'frontcontihogar.template.partials.header'],
+
+            'App\Http\ViewComposers\AsideComposer');
     }
 
     /**
