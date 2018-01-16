@@ -1,5 +1,5 @@
 <header class="cd-main-header">
-    <a class="cd-logo" href="#0">
+    <a class="cd-logo" href="http://blog.hogaryspacios.com">
         <img src="{{ asset('img/logo.svg') }}" alt="Logo" class="img___tamamo">
     </a>
     <ul class="cd-header-buttons">

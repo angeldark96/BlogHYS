@@ -4,7 +4,7 @@
     <div class="left navside dark dk" layout="column">
         <div class="navbar no-radius">
             <!-- brand -->
-            <a class="navbar-brand">
+            <a class="navbar-brand" href="http://blog.hogaryspacios.com/admin/posts">
                 {{--<div ui-include="../flatkit/assets/images/logo.svg"></div>--}}
                 <img src="{{ asset('img/logo.svg') }}" alt="" class="">
                 {{--<span class="hidden-folded inline">Flatkit</span>--}}
