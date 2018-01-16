@@ -1662,11 +1662,12 @@ header label {
     color: #fff;
     padding: .5em 1em;
     font-size: 22px;
+    text-transform: capitalize;
 }
 .category__tag:hover
 {
-   color: #fff;
-    font-size: 32px;
+    color: #F9B906;
+    text-transform: capitalize;
     transition: all 0.5s ease-out
 
 
