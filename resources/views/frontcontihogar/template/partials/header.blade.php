@@ -35,6 +35,7 @@
                 <ul class="cd-nav-gallery is-hidden">
                     <li class="go-back"><a href="#0">Menu</a></li>
                     <li class="see-all"></li>
+
                     {{--@foreach($posts as $post)--}}
                     {{--<li>--}}
                         {{--<a class="cd-nav-item" href="">--}}
@@ -43,7 +44,6 @@
                         {{--</a>--}}
                     {{--</li>--}}
                     {{--@endforeach--}}
-
 
                 </ul>
             </li>

@@ -27,7 +27,7 @@ class storeUser extends FormRequest
     {
         return [
             'name' => 'required|max:150|min:4|regex:/^[(a-zA-Z\s)]+$/u',
-            'apellido' => 'required|max:150|min:4|regex:/^[(a-zA-Z\s)]+$/u',
+            'apellido' => 'required|max:150|min:3|regex:/^[(a-zA-Z\s)]+$/u',
             'email' =>  [ 'required'],
             'dni' => 'required|min:8|numeric',
             'edad' => 'required|numeric',
@@ -47,7 +47,7 @@ class storeUser extends FormRequest
 
             'apellido.required' => 'El apellido del usuario es requerido',
             'apellido.max' => 'El apellido no debe de tener mas de 1000 caracteres',
-            'apellido.min' => 'El apellido no debe de tener mas de 5 caracteres',
+            'apellido.min' => 'El apellido no debe de tener mas de 3 caracteres',
             'apellido.regex' => 'El apellido solo debe de tener letras ',
 
 

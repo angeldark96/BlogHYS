@@ -67,7 +67,7 @@
                                     null,
                                     [
 
-                                        'class' => 'form-control'
+                                        'class' => 'form-control textarea-content'
                                     ]
                                 ) !!}
 

@@ -13,9 +13,9 @@ class AsideComposer
     {
         $categories = Category::orderBy('name','desc')->get();
         $users = User::orderBy('name','desc')->get();
-        //$posts = Post::orderBy('created_at','desc')->paginate(4);
+       // $posts = Post::orderBy('created_at','desc')->paginate(4);
 
-        $view->with(compact('categories','users','posts'));
+        $view->with(compact('categories','users'));
     }
 }
 

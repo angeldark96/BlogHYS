@@ -67,7 +67,7 @@
                                     $post->content,
                                     [
 
-                                        'class' => 'form-control'
+                                        'class' => 'form-control textarea-content'
                                     ]
                                 ) !!}
 

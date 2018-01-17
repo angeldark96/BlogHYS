@@ -30,7 +30,7 @@
                 <div class="cnt_info">
                     <ul>
                         <li><i class="fa fa-map-marker"></i><p>LAS GAVIOTAS MZA. Z-1 LOTE. 19 URB. SANTA LEONOR LIMA - LIMA - CHORRILLOS</p></li>
-                        <li><i class="fa fa-envelope"></i><p>cliente@contihogar.com.pe</p></li>
+                        <li><i class="fa fa-envelope"></i><p>cliente@hogaryspacios.com.pe</p></li>
                         <li><i class="fa fa-phone"></i><p>+0987654321 (+012345678)</p></li>
                     </ul>
                 </div>
