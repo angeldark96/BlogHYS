@@ -9,11 +9,9 @@
     <!-- for ios 7 style, multi-resolution icon of 152x152 -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
-    <link rel="apple-touch-icon" href="flatkit/assets/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Flatkit">
     <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="shortcut icon" sizes="196x196" href="flatkit/assets/images/logo.png">
 
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/font.css') }}" type="text/css" />
     <!-- style -->
@@ -27,7 +25,7 @@
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/app.css') }}" type="text/css" />
     <!-- endbuild -->
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/font.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{asset ('trumbowyg/ui/trumbowyg.css') }}">
+    <link rel="stylesheet" href="{{ asset ('trumbowyg/ui/trumbowyg.css') }}">
     <link rel="shortcut icon" href="{{ asset('img/isotipo0.png') }}">
     <title>@yield('title','Default') | Blog</title>
 </head>
