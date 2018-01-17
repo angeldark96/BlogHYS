@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/app.css') }}" type="text/css" />
     <!-- endbuild -->
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/font.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{asset ('trumbowyg/ui/trumbowyg.min.css') }}">
+    <link rel="stylesheet" href="{{asset ('trumbowyg/ui/trumbowyg.css') }}">
     <link rel="shortcut icon" href="{{ asset('img/isotipo0.png') }}">
     <title>@yield('title','Default') | Blog</title>
 </head>
