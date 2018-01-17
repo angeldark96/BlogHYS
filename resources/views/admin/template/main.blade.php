@@ -13,19 +13,19 @@
     <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
     <meta name="mobile-web-app-capable" content="yes">
 
-    <link href="{{ asset('flatkit/assets/styles/font.css') }}"  type="text/css" >
+    <link href="{{  URL::asset('flatkit/assets/styles/font.css') }}"  rel="stylesheet" type="text/css" >
     <!-- style -->
-    <link href="{{ asset('css/app.css') }}" type="text/css" />
-    <link href="{{ asset('flatkit/assets/glyphicons/glyphicons.css') }}"  type="text/css" />
-    <link href="{{ asset('flatkit/assets/font-awesome/css/font-awesome.min.css') }}"  type="text/css" >
-    <link href="{{ asset('flatkit/assets/material-design-icons/material-design-icons.css') }}"  type="text/css" >
+    <link href="{{  URL::asset('css/app.css') }}" type="text/css" />
+    <link href="{{  URL::asset('flatkit/assets/glyphicons/glyphicons.css') }}"   rel="stylesheet" type="text/css" />
+    <link href="{{  URL::asset('flatkit/assets/font-awesome/css/font-awesome.min.css') }}"  rel="stylesheet" type="text/css" >
+    <link href="{{  URL::asset('flatkit/assets/material-design-icons/material-design-icons.css') }}"  rel="stylesheet" type="text/css" >
 
-    <link href="{{ asset('flatkit/assets/bootstrap/dist/css/bootstrap.min.css') }}"  type="text/css" >
+    <link href="{{  URL::asset('flatkit/assets/bootstrap/dist/css/bootstrap.min.css') }}"   rel="stylesheet" type="text/css" >
     <!-- build:css ../assets/styles/app.min.css -->
-    <link href="{{ asset('flatkit/assets/styles/app.css') }}"  type="text/css" >
+    <link href="{{  URL::asset('flatkit/assets/styles/app.css') }}"  rel="stylesheet" type="text/css" >
     <!-- endbuild -->
-    <link href="{{ asset('flatkit/assets/styles/font.css') }}"  type="text/css" >
-    <link href="{{ asset('trumbowyg/ui/trumbowyg.css') }}"  type="text/css" >
+    <link href="{{  URL::asset('flatkit/assets/styles/font.css') }}"  rel="stylesheet" type="text/css" >
+    <link href="{{  URL::asset('trumbowyg/ui/trumbowyg.css') }}"  rel="stylesheet" type="text/css" >
     <link rel="shortcut icon" href="{{ asset('img/isotipo0.png') }}">
     <title>@yield('title','Default') | Blog</title>
 </head>
