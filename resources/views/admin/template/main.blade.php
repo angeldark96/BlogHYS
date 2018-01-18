@@ -78,7 +78,7 @@
 
         <script src="{{ asset('flatkit/scripts/config.lazyload.js') }}"></script>
 
-        <script src="{{ asset('flatkit/scripts/palette.js') }}') }}"></script>
+        <script src="{{ asset('flatkit/scripts/palette.js')  }}"></script>
         <script src="{{ asset('flatkit/scripts/ui-load.js') }}"></script>
         <script src="{{ asset('flatkit/scripts/ui-jp.js') }}"></script>
         <script src="{{ asset('flatkit/scripts/ui-include.js') }}"></script>
