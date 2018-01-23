@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Faker\Provider\File;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Image;
+
 
 class ImagesController extends Controller
 {
@@ -94,8 +96,18 @@ class ImagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request, $id)
     {
-        //
+        $image =  Image::find($request->input('post_id'));
+        $path = public_path()  . ' /img/posts/' . $image->name;
+        $deleted = File::delete($path);
+
+        if ($deleted)
+        {
+            $image->delete();
+        }
+        return back();
+
+
     }
 }

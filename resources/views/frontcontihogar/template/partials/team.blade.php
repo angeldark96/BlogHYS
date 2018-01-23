@@ -5,7 +5,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
                 <div class="title_sec">
                     <h1>Nuestro Diseñadores</h1>
-                    <h2>LOREM IMPUS</h2>
+                    {{--<h2>LOREM IMPUS</h2>--}}
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs12">

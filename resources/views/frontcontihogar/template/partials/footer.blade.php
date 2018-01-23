@@ -14,7 +14,7 @@
                     </ul>
                 </div>
                 <ul class="copy_right">
-                    <li>&copy;Hogar&Spacios 2017  |  Amobla contigo el hogar</li>
+                    <li>&copy;Hogar&Spacios 2018  |  Amobla contigo el hogar</li>
                     <li></li>
                 </ul>
             </div>

@@ -47,9 +47,14 @@
                                         <a href="#"><img src="/img/posts/{{ $image->name }}" alt="" class="img-responsive"></a>
                                         <div class="p-a-sm">
                                             <div class="text-ellipsis" style="text-align: center">
-                                                <a class="btn btn-danger btn-round"  href="">
-                                                    Eliminar Imagen
-                                                </a>
+                                                <form action="post">
+                                                    {{ csrf_field() }}
+                                                    {{ method_field('DELETE') }}
+                                                    <input type="hidden" name="post_id" value="{{ $image->id }}">
+                                                    <button class="btn btn-danger btn-round"  href="">
+                                                        Eliminar Imagen
+                                                    </button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>

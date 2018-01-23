@@ -97,7 +97,7 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']],function(){
         'as' =>   'images.store'
     ]);
 
-    Route::get('images/{id}/destroy',[
+    Route::delete('posts/{id}/images',[
 
         'uses' => 'ImagesController@destroy',
         'as' =>   'images.destroy'

@@ -5,7 +5,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
                 <div class="title_sec">
                     <h1>Informacion y contacto</h1>
-                    <h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
+                    {{--<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>--}}
                 </div>
             </div>
             <div class="col-sm-6">

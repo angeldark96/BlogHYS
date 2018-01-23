@@ -21,7 +21,7 @@ class PostsController extends Controller
 
         if(Auth::user()->admin())
         {
-            $posts = Post::Search($request->title)->orderBy('id','DESC')->paginate(5);
+            $posts = Post::Search($request->title)->orderBy('id','ASC')->paginate(5);
             $posts->each(function ($posts)
             {
                 $posts->category;
@@ -30,7 +30,7 @@ class PostsController extends Controller
         }
         else
         {
-            $posts = Post::Search($request->title)->where('user_id',auth()->user()->id)->orderBy('id','DESC')->paginate(5);
+            $posts = Post::Search($request->title)->where('user_id',auth()->user()->id)->orderBy('id','ASC')->paginate(5);
             $posts->each(function ($posts)
             {
                 $posts->category;

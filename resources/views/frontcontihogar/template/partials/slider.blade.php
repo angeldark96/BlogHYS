@@ -16,24 +16,24 @@
                         <div class="item active">
                             <div class="wrap_caption">
                                 <div class="caption_carousel">
-                                    <h1>Decoracion inspiration</h1>
-                                    <p>EL MEJOR ESTILO EN TU HOGAR</p>
+                                    <h1>Decoración</h1>
+                                    <p>PAZ Y ARMONÍA</p>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="wrap_caption">
                                 <div class="caption_carousel">
-                                    <h1>Colores Armonicos</h1>
-                                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTE</p>
+                                    <h1>Modernización</h1>
+                                    <p>COLOR Y ESTILO</p>
                                 </div>
                             </div>
                         </div>
                         <div class="item ">
                             <div class="wrap_caption">
                                 <div class="caption_carousel">
-                                    <h1>Descubre tus estilos</h1>
-                                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTE</p>
+                                    <h1>Grandes Soluciones</h1>
+                                    <p>NO EXISTEN PROBLEMAS DIFÍCILES</p>
                                 </div>
                             </div>
                         </div>

@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="{{ asset('flatkit/assets/styles/font.css') }}" type="text/css" />
     <!-- style -->
     <link href="{{ asset('css/app.css') }}" type="text/css" />
-        <link rel="stylesheet" href="{{ asset('flatkit/assets/glyphicons/glyphicons.css') }}" type="text/css" />
-        <link rel="stylesheet" href="{{ asset('flatkit/assets/font-awesome/css/font-awesome.min.css') }}" type="text/css" />
-        <link rel="stylesheet" href="{{ asset('flatkit/assets/material-design-icons/material-design-icons.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('flatkit/assets/glyphicons/glyphicons.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('flatkit/assets/font-awesome/css/font-awesome.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('flatkit/assets/material-design-icons/material-design-icons.css') }}" type="text/css" />
 
     <link rel="stylesheet" href="{{ asset('flatkit/assets/bootstrap/dist/css/bootstrap.min.css') }}" type="text/css" />
     <!-- build:css ../assets/styles/app.min.css -->
