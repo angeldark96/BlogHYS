@@ -97,11 +97,6 @@ Route::group(['prefix'=>'admin', 'middleware' => ['auth']],function(){
         'as' =>   'images.store'
     ]);
 
-    Route::delete('posts/{id}/images',[
-
-        'uses' => 'ImagesController@destroy',
-        'as' =>   'images.destroy'
-    ]);
 
 });
 
