@@ -35,7 +35,6 @@
                 </tr>
                 </thead>
                 <tbody>
-
                 @foreach($posts as $post)
                     <tr>
                         {{--<td class="text-center">{{ $post->id}}</td>--}}

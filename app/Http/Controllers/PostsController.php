@@ -21,7 +21,7 @@ class PostsController extends Controller
 
         if(Auth::user()->admin())
         {
-            $posts = Post::Search($request->title)->orderBy('id','ASC')->paginate(5);
+            $posts = Post::Search($request->title)->orderBy('created_at','desc')->paginate(4);
             $posts->each(function ($posts)
             {
                 $posts->category;
@@ -30,7 +30,7 @@ class PostsController extends Controller
         }
         else
         {
-            $posts = Post::Search($request->title)->where('user_id',auth()->user()->id)->orderBy('id','ASC')->paginate(5);
+            $posts = Post::Search($request->title)->where('user_id',auth()->user()->id)->orderBy('created_at','desc')->paginate(5);
             $posts->each(function ($posts)
             {
                 $posts->category;
@@ -144,4 +144,6 @@ class PostsController extends Controller
         $post-> delete();
         return redirect()->route('posts.index')-> with('mensaje1',"Se ha eliminado a $post->title correctamente ");
     }
+
+
 }

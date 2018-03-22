@@ -15,7 +15,7 @@
                         <li>{{ $post->created_at->diffForHumans() }}</li>
                     </ul>
                 </div>
-                <img src="/img/posts/{{ $post->images()->first()->name }}" style="padding-top: 1.5em" alt=""/>
+                <img src="/img/posts/{{ $post->images->isEmpty() ?'default-img.gif' : $post->images()->first()->name  }}" style="padding-top: 1.5em" alt=""/>
                 <div class="post_content">
                     <p> {!!substr($post->content, 0,200)!!}</p>
                     <a href="{{route('frontcontihogar.front_blog.view.post', $post->slug) }}">ver mas <i class="fa fa-long-arrow-right"></i></a>

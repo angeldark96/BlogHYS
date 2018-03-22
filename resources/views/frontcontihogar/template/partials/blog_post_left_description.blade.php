@@ -17,9 +17,9 @@
         <div class="post_content">
             <p>{!!$post->content !!}</p>
         </div>
-        <div class="post_content">
+        <div class="post_content1">
             @foreach($post->images as $image)
-                <img src="/img/posts/{{ $image->name }}" alt="" style="display: block;margin-bottom: 1em"/>
+                <img src="/img/posts/{{  $image->name }}" alt="" style="display: block;margin-bottom: 1em"/>
             @endforeach
         </div>
         <div id="disqus_thread"></div>

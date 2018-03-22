@@ -11,9 +11,13 @@ class AsideComposer
 {
     public function compose(View $view)
     {
-        $categories = Category::orderBy('name','ASC')->get();
-        $users = User::orderBy('name','ASC')->get();
-       // $posts = Post::orderBy('created_at','desc')->paginate(4);
+        // SearchCategory($name)->first()->
+        $categories = Category::orderBy('name','DESC')->get();
+        $users = User::orderBy('name','DESC')->get();
+       /* $posts = Post::orderBy('created_at','desc')->paginate(4);
+        $posts->each(function ($posts) {
+            $posts->category;
+        });*/
 
         $view->with(compact('categories','users'));
     }

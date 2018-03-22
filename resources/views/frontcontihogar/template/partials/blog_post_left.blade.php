@@ -6,7 +6,7 @@
 
     @foreach($posts as $post)
     <div class="sngl_blg">
-        <img src="/img/posts/{{ $post->images()->first()->name }}" alt=""/>
+        <img src="/img/posts/{{ $post->images->isEmpty() ?'default-img.gif' : $post->images()->first()->name }}" alt=""/>
         <div class="post_info">
             <div class="post_intro">
                 <h2><a href="{{route('frontcontihogar.front_blog.search.user', $post->user->name) }}" style="color: #333">{{ $post->user->name }} /</a> <a href="{{route('frontcontihogar.front_blog.view.post', $post->slug) }}">{{ $post->title }}</a></h2>

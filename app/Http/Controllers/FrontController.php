@@ -30,7 +30,7 @@ class FrontController extends Controller
     public function SearchCategory($name)
     {
         $category = Category::SearchCategory($name)->first();
-        $posts = $category->posts()->paginate(3);
+        $posts = $category->posts()->orderBy('created_at','desc')->paginate(4);
         $posts->each(function ($posts) {
             $posts->category;
         });

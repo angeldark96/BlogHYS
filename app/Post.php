@@ -18,7 +18,6 @@ class Post extends Model
                 'source' => 'title'
 
             ]
-
         ];
     }
 
@@ -39,6 +38,8 @@ class Post extends Model
     {
         return $query->where('title','LIKE','%' . $title . '%');
     }
+
+
 
 
 }
