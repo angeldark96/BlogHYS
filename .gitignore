@@ -12,6 +12,9 @@ yarn-error.log
 .env
 access_log
 error_log
+/public/img/user
+/public/img/posts
+/public/img/categories
 
 
 # Created by https://www.gitignore.io/api/phpstorm
